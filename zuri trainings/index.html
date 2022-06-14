@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Sign in</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="text">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real time.Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
+        </div>
+        <div class="form">
+            <button href="#"><strong>Try it free 7 days</strong><a> then 20$/mo.thereafter</a></button>
+            <form>
+                <div class="input-container">
+                    <input oninput="show()" class="input" type="text" placeholder="First Name"required>
+                    <span class="icon"><img src="./icon-error.svg"> </span>    
+                </div>
+                <em>First Name cannot be empty</em>
+                <div class="input-container">
+                    <input oninput="show1()"  class="input" type="text" placeholder="Last Name"required>
+                    <span class="icon"><img src="./icon-error.svg"> </span>       
+                </div>
+                <em>Last Name cannot be empty</em>
+                <div class="input-container">
+                    <input oninput="show2()"  class="email-input" type="email" value="email@example/com" placeholder="Email Address"required>
+                    <span class="icon"><img src="./icon-error.svg"> </span>        
+                </div>
+                <em>Looks like this is not an email</em>
+                <div class="input-container">
+                    <input oninput="show3()"  class="input" type="password" placeholder="Password"required>
+                    <span class="icon"><img src="./icon-error.svg"> </span>       
+                </div>
+                <em>Password cannot be empty</em>
+                    <input class="submit" type="submit" id="btn" value="CLAIM YOUR FREE TRIAL">
+                    <p>By clicking the button you are agreeing to our <a>Terms and Services</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

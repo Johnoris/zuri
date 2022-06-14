@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:#dedede ;
+}
+h1{
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: poppins;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.visible{
+    visibility: visible;
+}
+em{
+    text-align: right;
+    margin-right: 3rem;
+    color: red;
+    font-family: poppins;
+    font-size: 0.4rem;
+    visibility: hidden;
+}
+p{
+    color: #dedede;
+    font-size: 1rem;
+    font-family: poppins;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+    background-image: url(./bg-intro-mobile.png);
+    background-color:  hsl(0, 100%, 74%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: hsl(248, 32%, 49%);
+    width: 80%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+form{
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit{
+    background-color:  hsl(154, 59%, 51%);
+    width : 80%;
+    height: 3rem;   
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    margin: 1rem auto;
+}
+p a{
+    color:  hsl(0, 100%, 74%) ;
+}
+form p{
+    color: #dedede;
+    font-size: 0.7rem;
+    font-family: poppins;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.icon{
+    position: absolute;
+    margin-top: 1rem;
+}
+span{
+    visibility: hidden;
+}
+input{
+    box-sizing: border-box;
+    width: 90%;
+    height: 3rem;
+    border: none;
+    padding-left: 2rem;
+    outline: none;
+    font-size: 0.6rem;
+    font-family: poppins;
+}
+.email-input{
+    color: default;    
+}
+
+.input-container{
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 0.3rem;
+    border: 1px solid #dedede;  
+}
+@media screen and (min-width:989px) {
+    .wrapper{
+        flex-direction: row;        
+    } 
+    .text{
+        max-width: 50%;
+    }   
+    .form{
+        padding-left: 5rem;
+        width: 50%;
+        margin-bottom: 4rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    input{
+        font-size: 1rem;
+    }
+}
+
